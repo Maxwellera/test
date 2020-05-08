@@ -13,5 +13,6 @@ public class GateWayConfig {
         RouteLocatorBuilder.Builder routes = builder.routes();
         routes.route("path_rote_atguigu", r -> r.path("/guonei").uri("http://news.baidu.com/guonei")).build();
         return routes.build();
+
     }
 }
